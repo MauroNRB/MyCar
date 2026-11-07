@@ -1,10 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="purple_200">#FFBB86FC</color>
-    <color name="purple_500">#FF6200EE</color>
-    <color name="purple_700">#FF3700B3</color>
-    <color name="teal_200">#FF03DAC5</color>
-    <color name="teal_700">#FF018786</color>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
+    <!-- Backgrounds & Surfaces -->
+    <color name="colorBackground">#121214</color>
+    <color name="colorSurface">#1E1E24</color>
+    <color name="colorSurfaceVariant">#262630</color>
+    <color name="colorSurfaceBorder">#343442</color>
+
+    <!-- Brand Accents -->
+    <color name="colorPrimary">#00D2FF</color>
+    <color name="colorPrimaryVariant">#0090B8</color>
+    <color name="colorSecondary">#00E676</color>
+    <color name="colorAccent">#80E5FF</color>
+
+    <!-- Status & Alerts -->
+    <color name="colorSuccess">#00E676</color>
+    <color name="colorWarning">#FF9100</color>
+    <color name="colorDanger">#FF3D00</color>
+
+    <!-- Typography -->
+    <color name="textPrimary">#FFFFFF</color>
+    <color name="textSecondary">#A0A0B0</color>
+    <color name="textMuted">#6C6C80</color>
+
+    <!-- Navigation & Component Accents -->
+    <color name="navItemUnselected">#808096</color>
+    <color name="dividerColor">#2A2A36</color>
 </resources>

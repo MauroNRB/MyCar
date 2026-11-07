@@ -1,3 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- App & Navigation -->
     <string name="app_name">MyCar</string>
+    <string name="nav_dashboard">Início</string>
+    <string name="nav_vehicle">Meu veículo</string>
+    <string name="nav_mileage">Quilometragem</string>
+    <string name="nav_maintenance">Manutenções</string>
+    <string name="nav_speedometer">Velocímetro</string>
+    <string name="nav_acceleration">Aceleração 0–100</string>
+    <string name="nav_trips">Viagens</string>
+    <string name="nav_sensors">Sensores</string>
+    <string name="nav_settings">Configurações</string>
+
+    <!-- Dashboard -->
+    <string name="dashboard_welcome">Bem-vindo ao MyCar</string>
+    <string name="dashboard_no_vehicle">Nenhum veículo cadastrado</string>
+    <string name="dashboard_no_vehicle_msg">Cadastre seu veículo para começar a monitorar quilometragem, manutenções e estatísticas.</string>
+    <string name="dashboard_register_vehicle">Cadastrar Veículo</string>
+    <string name="dashboard_current_odometer">Quilometragem Atual</string>
+    <string name="dashboard_current_speed">Velocidade Atual</string>
+    <string name="dashboard_distance_today">Distância Hoje</string>
+    <string name="dashboard_next_maintenance">Próxima Manutenção</string>
+    <string name="dashboard_pending_maintenances">Manutenções Pendentes</string>
+    <string name="dashboard_quick_actions">Ações Rápidas</string>
+    <string name="unit_km">km</string>
+    <string name="unit_kmh">km/h</string>
+    <string name="unit_currency">R$</string>
+
+    <!-- Vehicle Management -->
+    <string name="vehicle_title">Gerenciamento do Veículo</string>
+    <string name="vehicle_name">Nome / Apelido do Veículo</string>
+    <string name="vehicle_manufacturer">Marca / Fabricante</string>
+    <string name="vehicle_model">Modelo</string>
+    <string name="vehicle_year_fab">Ano de Fabricação</string>
+    <string name="vehicle_year_model">Ano do Modelo</string>
+    <string name="vehicle_plate">Placa (Opcional)</string>
+    <string name="vehicle_fuel_type">Tipo de Combustível</string>
+    <string name="vehicle_odometer">Quilometragem Inicial (km)</string>
+    <string name="vehicle_engine">Motorização (Opcional)</string>
+    <string name="vehicle_save">Salvar Veículo</string>
+    <string name="vehicle_edit">Editar Veículo</string>
+    <string name="vehicle_saved_success">Veículo salvo com sucesso!</string>
+
+    <!-- Fuel Types -->
+    <string name="fuel_flex">Flex (Gasolina / Etanol)</string>
+    <string name="fuel_gasoline">Gasolina</string>
+    <string name="fuel_ethanol">Etanol</string>
+    <string name="fuel_diesel">Diesel</string>
+    <string name="fuel_electric">Elétrico</string>
+    <string name="fuel_hybrid">Híbrido</string>
+
+    <!-- Mileage Management -->
+    <string name="mileage_title">Registro de Quilometragem</string>
+    <string name="mileage_add">Registrar Quilometragem</string>
+    <string name="mileage_value">Nova Quilometragem (km)</string>
+    <string name="mileage_date">Data e Hora</string>
+    <string name="mileage_notes">Observações (Opcional)</string>
+    <string name="mileage_history">Histórico de Quilometragem</string>
+    <string name="mileage_diff">Diferença</string>
+    <string name="mileage_accumulated">Total Acumulado</string>
+    <string name="mileage_error_lower">A nova quilometragem não pode ser menor que a anterior (%1$s km).</string>
+
+    <!-- Maintenance Management -->
+    <string name="maintenance_title">Manutenções</string>
+    <string name="maintenance_add">Registrar Manutenção</string>
+    <string name="maintenance_edit">Editar Manutenção</string>
+    <string name="maintenance_service_title">Título do Serviço</string>
+    <string name="maintenance_category">Categoria</string>
+    <string name="maintenance_date">Data do Serviço</string>
+    <string name="maintenance_odometer">Quilometragem do Serviço (km)</string>
+    <string name="maintenance_cost">Custo (R$)</string>
+    <string name="maintenance_workshop">Oficina / Prestador (Opcional)</string>
+    <string name="maintenance_schedule_future">Agendar Próxima Manutenção</string>
+
+    <string name="maintenance_target_date">Data Prevista</string>
+    <string name="maintenance_target_odometer">Quilometragem Prevista (km)</string>
+    <string name="maintenance_status_ok">Em dia</string>
+    <string name="maintenance_status_upcoming">Próxima manutenção</string>
+    <string name="maintenance_status_overdue">Manutenção vencida</string>
+    <string name="maintenance_filter_all">Todas as categorias</string>
+
+    <!-- Categories -->
+    <string name="category_oil">Troca de Óleo</string>
+    <string name="category_tires">Pneus e Alinhamento</string>
+    <string name="category_brakes">Freios</string>
+    <string name="category_filters">Filtros e Velas</string>
+    <string name="category_battery">Bateria e Elétrica</string>
+    <string name="category_inspection">Revisão Geral</string>
+    <string name="category_other">Outros</string>
+
+    <!-- Speedometer -->
+    <string name="speedometer_title">Velocímetro GPS</string>
+    <string name="speedometer_current_speed">Velocidade Atual</string>
+    <string name="speedometer_gps_status">Sinal GPS</string>
+    <string name="speedometer_gps_waiting">Aguardando sinal GPS...</string>
+    <string name="speedometer_gps_active">GPS Ativo (Precisão: %1$.1f m)</string>
+    <string name="speedometer_gps_disabled">GPS Desativado no dispositivo</string>
+    <string name="speedometer_max_speed">Velocidade Máxima</string>
+    <string name="speedometer_avg_speed">Velocidade Média</string>
+
+    <!-- Acceleration Test 0-100 km/h -->
+    <string name="acceleration_title">Aceleração 0–100 km/h</string>
+    <string name="acceleration_state_waiting_gps">Aguardando GPS</string>
+    <string name="acceleration_state_ready">Pronto para iniciar</string>
+    <string name="acceleration_state_measuring">Medindo aceleração...</string>
+    <string name="acceleration_state_completed">Teste concluído!</string>
+    <string name="acceleration_state_invalid">Medição inválida</string>
+    <string name="acceleration_start">Iniciar Medição</string>
+    <string name="acceleration_stop">Parar Medição</string>
+    <string name="acceleration_time">Tempo: %1$.2f s</string>
+    <string name="acceleration_result_title">Resultado: %1$.2f segundos</string>
+    <string name="acceleration_history">Histórico de Aceleração</string>
+    <string name="acceleration_safety_warning">AVISO DE SEGURANÇA: Este teste deve ser realizado exclusivamente em pista fechada e controlada, por motorista qualificado. Um passageiro deve operar o aplicativo. Nunca utilize o celular enquanto estiver dirigindo.</string>
+    <string name="acceleration_gps_limitation">A precisão do teste depende da taxa de amostragem do GPS do aparelho (geralmente 1 Hz).</string>
+
+    <!-- Trip Tracking -->
+    <string name="trip_title">Rastreamento de Viagem</string>
+    <string name="trip_start">Iniciar Viagem</string>
+    <string name="trip_stop">Finalizar Viagem</string>
+    <string name="trip_in_progress">Viagem em andamento...</string>
+    <string name="trip_distance">Distância percorrida</string>
+    <string name="trip_duration">Duração</string>
+    <string name="trip_history">Histórico de Viagens</string>
+    <string name="trip_saved">Viagem salva com sucesso!</string>
+
+    <!-- Sensors & Diagnostics -->
+    <string name="sensor_title">Diagnóstico de Sensores</string>
+    <string name="sensor_accelerometer">Acelerômetro</string>
+    <string name="sensor_status_available">Sensor disponível</string>
+    <string name="sensor_status_unavailable">Sensor indisponível</string>
+    <string name="sensor_axis_x">Eixo X: %1$.2f m/s²</string>
+    <string name="sensor_axis_y">Eixo Y: %1$.2f m/s²</string>
+    <string name="sensor_axis_z">Eixo Z: %1$.2f m/s²</string>
+    <string name="sensor_magnitude">Intensidade do Movimento: %1$.2f m/s²</string>
+    <string name="sensor_graph_title">Gráfico de Aceleração em Tempo Real</string>
+
+    <!-- Settings & Privacy -->
+    <string name="settings_title">Configurações e Privacidade</string>
+    <string name="settings_about_app">Sobre o MyCar</string>
+    <string name="settings_about_desc">Aplicativo de acompanhamento automotivo desenvolvido para gerenciamento de veículos, quilometragem, manutenções e testes de desempenho.</string>
+    <string name="settings_privacy_title">Política de Privacidade e Geolocalização</string>
+    <string name="settings_privacy_desc">O MyCar utiliza a localização GPS do dispositivo exclusivamente em primeiro plano para calcular a velocidade no velocímetro, estimar distâncias de viagem e medir o tempo de aceleração de 0 a 100 km/h. Seus dados de localização são armazenados localmente no banco de dados do seu telefone e não são enviados a nenhum servidor externo.</string>
+    <string name="settings_permission_location">Permitir Localização</string>
+    <string name="settings_permission_granted">Permissão de localização concedida</string>
+    <string name="settings_permission_needed">Permissão de localização necessária para utilizar o velocímetro e rastreamento de viagens.</string>
+
+    <!-- Common UI Strings -->
+    <string name="btn_save">Salvar</string>
+    <string name="btn_cancel">Cancelar</string>
+    <string name="btn_edit">Editar</string>
+    <string name="btn_delete">Excluir</string>
+    <string name="btn_confirm">Confirmar</string>
+    <string name="btn_close">Fechar</string>
+    <string name="empty_records">Nenhum registro encontrado</string>
+    <string name="confirm_delete_title">Confirmar Exclusão</string>
+    <string name="confirm_delete_msg">Tem certeza que deseja excluir este registro?</string>
+    <string name="required_field">Campo obrigatório</string>
+    <string name="invalid_number">Valor numérico inválido</string>
 </resources>

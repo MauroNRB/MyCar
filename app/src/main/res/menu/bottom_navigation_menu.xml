@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_dashboard"
+        android:icon="@drawable/ic_dashboard"
+        android:title="@string/nav_dashboard" />
+
+    <item
+        android:id="@+id/navigation_vehicle"
+        android:icon="@drawable/ic_vehicle"
+        android:title="@string/nav_vehicle" />
+
+    <item
+        android:id="@+id/navigation_speedometer"
+        android:icon="@drawable/ic_speedometer"
+        android:title="@string/nav_speedometer" />
+
+    <item
+        android:id="@+id/navigation_maintenance"
+        android:icon="@drawable/ic_maintenance"
+        android:title="@string/nav_maintenance" />
+
+    <item
+        android:id="@+id/navigation_more"
+        android:icon="@drawable/ic_more"
+        android:title="Mais" />
+</menu>
